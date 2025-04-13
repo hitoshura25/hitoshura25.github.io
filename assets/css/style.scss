@@ -1,0 +1,40 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.project-card {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.project-content {
+  margin: 20px 0;
+}
+
+.tech-tag {
+  background: #505050;
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.project-links {
+  margin-top: 15px;
+  
+  .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0366d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    
+    &:hover {
+      background: #0256b4;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+title: Vinayak Menon
+description: Software Engineer Portfolio
+baseurl: ""
+url: "https://hitoshura25.github.io/"
+
+# Build settings
+markdown: kramdown
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+collections:
+  projects:
+    output: true
+header_pages:
+  - about.md
